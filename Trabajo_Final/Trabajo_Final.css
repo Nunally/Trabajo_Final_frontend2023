@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  width: 100px;
+  background-color: #dddddd;
+}
+
+[class*="col-4"].datosPersonales   {
+  width: 30%;
+  float: left;
+  padding: 15px;
+  margin: 2px;
+  text-align: left
+}
+[class*="col-8"].experienciaPersonal {
+  width: 70%;
+  float: left;
+  padding: 15px;
+  margin: 2px;
+  text-align: left;
+}
+
+#cambiarFoto {
+ size : (max-width = 320px) 280px,
+            (max-width = 480px) 440px,
+            800px"
+          }          
+#caja1 {
+  background-color: rgba(245, 243, 227, 0.904);
+   
+}
+
+    #caja2 {
+      background-color: rgba(245, 243, 227, 0.904);
+  }
+    
+.colorletras1  {
+     font-family: 'Lato', sans-serif;
+     color: rgb(5, 5, 5);
+}
+
+.colorletras2 {
+  font-family: 'Lato', sans-serif;
+  color: rgb(5, 5, 5);
+  font-weight: bold;
+}
+
+#TrabajaNosotros{
+  background-color: rgba(243, 216, 9, 0.904);
+}
+
